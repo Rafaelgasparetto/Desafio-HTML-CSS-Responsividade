@@ -10,7 +10,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <!-- Link import -->
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/contato.css">
+        <link rel="stylesheet" href="style/responsive_contato.css">
 
         <title>Divina Fashion</title>
         
@@ -18,11 +19,13 @@
     <body>
         <!-- Navegation bar start -->
         <header>
-            <img src="src/img/logo_divina.png" alt="Logo Divina">
             <nav>
+                <a class="logo" href="">
+                    <img src="src/img/logo_divina.png" alt="Logo Divina">
+                </a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a class="link_home" class="link" href="index.html">Home</a></li>
+                    <li><a class="link_contato" href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -42,33 +45,39 @@
                         <label for="email">E-mail:</label>
                         <input type="email" name="email" id="email">
                         <label for="number">Telefone:</label>
-                        <input type="number" name="number" id="number">
+                        <input type="tel" name="tel" id="tel">
                         <label for="mensagem">Mensagem:</label>
+                        <div>
                         <textarea name="mensagem" id="mensagem"></textarea>
+                        </div>
+                        <div class="btn_contact">
                         <button type="submit">Enviar</button>
+                        </div>
                     </form>
+
                 </div>
             </div>
 
-            <div class="contact_box">
-                <div class="contact_box_inside">
+                    <!-- End of contact box -->
+
+            <div class="contact_bar">
+                <div class="contact_bar_inside">
                     <p><b>Fone:</b> 31 99999 9666</p>
                     <p><b>e-mail:</b> contato@divinafashion.com</p>
                     <p><b>Endereço:</b> AV. Principal, 123 . BH/MG</p>
                 </div>
             </div>
-
         </section>
-        <!-- End of contact box -->
+        
 
-        <!-- Start of footer  -->
-        <footer>
-            <div>
-                <p>31 9999 9666 - contato@divinafashion.com</p>
-                <p>AV. Principal, 123 . BH/MG</p>
-            </div>
-        </footer>
-        <!-- End of Footer -->
+            <footer>
+                <div class="footer_bloco">
+                    <p>31 9999 9666 - contato@divinafashion.com</p>
+                    <p>AV. Principal, 123 . BH/MG</p>
+                </div>
+            </footer>
+        
+
 
     </body>
 </html>
