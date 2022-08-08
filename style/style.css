@@ -127,7 +127,6 @@ article div p:last-child{
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    
 }
 
 /*                                              /* CARDS! */
@@ -137,8 +136,6 @@ article div p:last-child{
     box-sizing: border-box;
     width: 250px;
     height: 410px;
-    left: 130px;
-    top: 1048px;
     border: 1px solid #9e9b9b;
 }
 

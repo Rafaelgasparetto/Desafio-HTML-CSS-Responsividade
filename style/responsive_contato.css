@@ -4,23 +4,8 @@ main{
 flex-wrap: wrap;
 }
 
-/* 1200px*/
 
-/* @media(max-width: 1200px){
-
-    body{
-        
-        width: 1200px;
-        height: 970px;
-    }
-
-    footer{
-        opacity: 0;
-    }
-
-} */
-
-/*Tablet*/
+/*                                              /* Tablet */
 
 @media(max-width: 864px){
 
@@ -28,24 +13,21 @@ flex-wrap: wrap;
         width: 768px;
         height: 970px;
     }
-
+/*                                      /* Navegation bar (864px) */
     header nav,
     header nav ul{
         flex-direction:row;
     }
-
+/*                                      /* First article (864px) */
     .first_article img{
         display: none;
     }
-
+/*                                      /* Second article (864px) */
     .second_article{
         flex-direction: column;
     }
 
-    footer{
-        display: none;
-    }
-
+/*                                          /* Form box */
     .contact_bar{
         width: 312px;
         height: 700px;
@@ -98,17 +80,16 @@ flex-wrap: wrap;
         line-height: 16px;
     }
 
+    /*                                      /* Footer (864px) */
+    footer{
+        display: none;
+    }
+
 }
 
-
-/* Celular */
+/*                                          /* Celular */
 
 @media(max-width: 600px){
-
-    header nav,
-    header nav ul{
-        flex-direction: column;
-    }
 
     body{
         width: 350px;
@@ -116,29 +97,21 @@ flex-wrap: wrap;
         margin: 0 auto;
     }
 
+/*                                      /* Navegation bar (600px) */
+    header nav,
+    header nav ul{
+        flex-direction: column;
+    }
+
+/*                                      /* First article (600px) */
     .first_article img{
         display: none;
     }
-
+/*                                      /* Second article (600px) */
     .second_article{
         flex-direction: column;
     }
-
-    footer{
-        margin-top: 43px;
-        opacity: 1;
-        display: flex;
-        width: 400px;
-        height: 10vh;
-        flex-direction: column;
-        align-items: center;
-    }
-
-     footer div{
-        /* width: 280px; */
-        height: 100px;
-    } 
-
+/*                                      /*Form box (600px) */
     .contact_bar{
         display: none;
     }
@@ -147,8 +120,6 @@ flex-wrap: wrap;
         width: 340px;
         height: 653px;
         border: 1px solid var(--wine);
-        /* margin-left: 20px; */
-        /* margin-right: 46px; */
     }
 
     .form_box h1{
@@ -194,8 +165,21 @@ flex-wrap: wrap;
         line-height: 16px;
         
     }
+/*                                      /* Footer (600px) */
+    footer{
+        margin-top: 43px;
+        opacity: 1;
+        display: flex;
+        width: 400px;
+        height: 10vh;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    
+    footer div{
+        height: 100px;
+    } 
+
 
 }
 

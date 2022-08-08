@@ -5,7 +5,7 @@ flex-wrap: wrap;
 }
 
 
-/* Tablet */
+/*                                       /* Tablet */
 
 @media(max-width: 864px){
 
@@ -15,25 +15,25 @@ flex-wrap: wrap;
         margin: auto;
     }
 
-/*                                    /*Navegation bar*/
+/*                                    /* Navegation bar (864px) */
 
     header nav,
     header nav ul{
         flex-direction:row;
     }
-
+/*                                    /* First article (864px) */
     .first_article{
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     .first_article img{
         display: none;
     }
 
-    
+/*                                    /* Second article (864px) */    
     .second_article{
         display: flex;
-        flex-wrap: wrap;                /*Cards para alinhar*/
+        flex-wrap: wrap;                
         padding-top: 46px;
         padding-bottom: 39px;
         gap: 8px;
@@ -42,10 +42,9 @@ flex-wrap: wrap;
     .card{
         display: flex;
         flex-wrap: wrap;
-        /* align-items: center; */
         flex-direction: column;
     }
-
+/*                                      /* Footer (864px) */
     footer{
         opacity: 1;
         width: 768px;
@@ -65,26 +64,38 @@ flex-wrap: wrap;
 
 }
 
-/*                                /* Celular */
+/*                                         /* Celular */
 
 @media(max-width: 600px){
 
-    header nav,
-    header nav ul{
-        flex-direction: column;
-    }
-
     body{
-        width: 100%;
+        width:400px;
         height: 2568px;
     }
 
+    main{
+        flex-wrap: wrap;
+        display: flex;
+        align-content: center;
+        justify-content: space-between
+    }
+
+/*                                     /* Navegation bar (600px) */
+
+    header nav,
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+/*                                     /* First article (600px) */
     .first_article img{
         display: none;
     }
 
     .first_article{
-        padding-top: 11px;
+        display: flex;
+        flex-direction: column;
     }
 
     .first_article h1{
@@ -95,18 +106,13 @@ flex-wrap: wrap;
         font-size: 1.8rem;
         line-height: 42px;
     }
-
-    article{
-        width: 320px;
-        height: 730px;
-        padding-bottom: 220px;
-    }
-
+/*                                     /* Second article (600px) */
     .second_article{
         display: flex;
         flex-direction: column;
+        gap: 40px;
     }
-
+/*                                      /* Footer (600px) */
     footer{
         opacity: 1;
         width: 100%;

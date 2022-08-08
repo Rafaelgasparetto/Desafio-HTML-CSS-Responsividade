@@ -60,13 +60,11 @@ nav ul li a {
     height: 70px;
 }
 
-
-/*                /* Contact Form */
+/*                                        /* Contact Form */
 
 .box_contato{
     display: flex;
     justify-content: space-between;
-    /* margin: auto; */
 }
 
 .form_box h1{
@@ -80,14 +78,12 @@ nav ul li a {
 .form_box{
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
     align-items: center;
     width: 780px;
     height: 700px;
     border: 2px solid var(--wine);
     border-radius: 5px;
-    padding-top: 46px;
-    /* margin: auto; */
+    padding-top: 46px; 
 }
 
 .inside_box{
@@ -97,7 +93,6 @@ nav ul li a {
 .form_box_inside{
     display: flex;
     flex-direction: column;
-    /* padding-top: 5%; */
 }
 
 .form_box_inside label{
@@ -149,8 +144,7 @@ nav ul li a {
     line-height: 28px;
 }
 
-/*                    /* Contact Bar */
-
+/*                                    /* Contact Bar */
 
 .contact_bar{
     display: flex;
@@ -179,7 +173,7 @@ nav ul li a {
     padding-top: 70%;
 }
 
-
+/*                                        /* Footer */
 
 footer{
     opacity: 0;
